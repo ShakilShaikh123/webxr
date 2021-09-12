@@ -61,7 +61,7 @@ class App{
 		// Load a GLTF resource
 		loader.load(
 			// resource URL
-			`knight.glb`,
+			`office.glb`,
 			// called when the resource is loaded
 			function ( gltf ) {
 				const object = gltf.scene.children[5];
@@ -79,7 +79,7 @@ class App{
 					animations: gltf.animations,
 					clip: gltf.animations[0],
 					app: self,
-					name: 'knight',
+					name: 'office',
 					npc: false
 				};
 				
