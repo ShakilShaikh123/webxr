@@ -216,7 +216,7 @@ class App{
 						anims: anims,
 						clip: gltf.animations[0],
 						app: self,
-						name: 'ghoul',
+						name: 'office',
 						npc: true
 					};
 
