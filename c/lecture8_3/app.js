@@ -191,7 +191,7 @@ class App{
 		// Load a GLTF resource
 		loader.load(
 			// resource URL
-			`chair.glb`,
+			`ghoul.glb`,
 			// called when the resource is loaded
 			function ( gltf ) {
 				const gltfs = [gltf];
@@ -216,7 +216,7 @@ class App{
 						anims: anims,
 						clip: gltf.animations[0],
 						app: self,
-						name: 'chair',
+						name: 'ghoul',
 						npc: true
 					};
 
