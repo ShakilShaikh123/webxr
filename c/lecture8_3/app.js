@@ -191,7 +191,7 @@ class App{
 		// Load a GLTF resource
 		loader.load(
 			// resource URL
-			`chair2.glb`,
+			`chair.glb`,
 			// called when the resource is loaded
 			function ( gltf ) {
 				const gltfs = [gltf];
